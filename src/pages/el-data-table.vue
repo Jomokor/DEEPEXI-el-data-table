@@ -44,11 +44,11 @@
                 placeholder: '请选择'
               },
               $options: [{
-                label: '1.0.0',
-                value: '1.0.0'
+                label: '后端组件',
+                value: '1'
               }, {
-                label: '2.0.0',
-                value: '2.0.0'
+                label: '前端组件',
+                value: '2'
               }]
             },
             {
@@ -120,6 +120,13 @@
               $el: {
                 placeholder: '请选择'
               },
+			  $options: [{
+                label: '后端组件',
+                value: '1'
+              }, {
+                label: '前端组件',
+                value: '2'
+              }],
 //            rules: [
 //              {
 //                required: true,
@@ -135,6 +142,13 @@
               $el: {
                 placeholder: '请选择'
               },
+			  $options: [{
+                label: '上架',
+                value: '1'
+              }, {
+                label: '下架',
+                value: '0'
+              }],
 //            rules: [
 //              {
 //                required: true,
